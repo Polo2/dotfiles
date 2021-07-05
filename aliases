@@ -10,3 +10,11 @@ alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 alias gst="git status"
 alias gco="git checkout"
 alias grb="git rebase"
+alias grst="git restore"
+alias gressoft="git reset --soft"
+alias glol="git log --name-only"
+
+alis ggpush="git push --set-upstream origin HEAD"
+# rspec
+
+alias rspec="bundle exec rspec"
