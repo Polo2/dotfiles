@@ -51,3 +51,9 @@
 	name = Polo M2B
 [pull]
 	ff = only
+
+[diff "rspec"]
+  xfuncname = "^[ \t]*((RSpec|describe|context|it|before|after|around|feature|scenario)[ \t].*)$"
+
+[commit]
+  verbose = true

@@ -2,8 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"ApplySyntax",
-		"GitGutter"
 	],
 	"installed_packages":
 	[
@@ -17,5 +15,5 @@
 		"Package Control",
 		"SCSS",
 		"ERB Snippets"
-	]
+	],
 }

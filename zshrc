@@ -33,3 +33,7 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion

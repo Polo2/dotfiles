@@ -1,0 +1,6 @@
+*.gemspec  diff=ruby
+*.rake     diff=ruby
+*.rb       diff=ruby
+*._spec.rb diff=rspec
+
+ # https://www.synbioz.com/blog/tech/un-meilleur-rendu-de-git-diff-pour-ruby?utm_content=buffer7e819&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer# toto
