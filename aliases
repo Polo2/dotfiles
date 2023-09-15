@@ -18,6 +18,9 @@ alias ggpush="git push --set-upstream origin HEAD"
 alias gcstyle="git commit -m 'Autofix codestyle'"
 alias gpf="git push --force-with-lease"
 
+alias gfixup='gfixup(){ git commit --fixup HEAD~"$1"; }; gfixup'
+alias gautosquash='grbauto(){ git rebase -i --autosquash "$1"; }; grbauto'
+
 # rspec
 
 # not used
