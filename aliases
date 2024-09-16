@@ -12,19 +12,24 @@ alias gco="git checkout"
 alias grb="git rebase"
 alias grt="git restore"
 alias gp="git push"
+alias gad="git add"
 alias gmsg="git commit -m"
 alias gca="git commit --amend"
 alias ggpush="git push --set-upstream origin HEAD"
 alias gcstyle="git commit -m 'Autofix codestyle'"
 alias gpf="git push --force-with-lease"
 
-alias gfixup='gfixup(){ git commit --fixup HEAD~"$1"; }; gfixup'
-alias gautosquash='grbauto(){ git rebase -i --autosquash "$1"; }; grbauto'
-
+# Git shorthcuts que j'aimerais penser à utiliser plus souvent
+alias gfix='f() { git commit --fixup $1; };f'
+alias gautosquash='f() { git rebase -i --autosquash $1; }; f'
+alias guncommit='f(){ git reset --soft "$1"; git restore --staged .}; f'
 # rspec
 
-# not used
 
+# not used
 alias glol="git log --name-only"
 alias gressoft="git reset --soft"
 alias codem="code $(git diff-tree --no-commit-id --name-only -r HEAD..master)"
+
+# alias example='f() { echo Your arg was $1. };f'
+# alias example='(){ echo Your arg was $1. ;}'
