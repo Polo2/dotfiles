@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = polo2bodi@gmail.com
-	name = Polo M2B
+	name = Polo2
 [pull]
 	ff = only
 
